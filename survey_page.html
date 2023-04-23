@@ -1,25 +1,52 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1 id="title">Some text</h1>
-    <p id="description">Some text</p>
-    <form id="survey-form">
-        <label for="name">Name</label>
-        <input id="name" type="text" placeholder="Type your name"><br><br>
-        <label for="email">Email</label>
-        <input id="email" type="email" placeholder="Type in your email">
-        <label for="number">Number</label>
-        <input id="number" type="number" min="0" max="9" placeholder="Pick a number">
-        <select id="dropdown">
-            <option value="pepsi">Pepsi</option>
-            <option value="choke">Choke</option>  
-        </select>
-    </form>
-</body>
-</html>
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+  </head>
+  <body>
+      <h1 id="title">Some text</h1>
+
+      <p id="description">Some text</p>
+
+      <form id="survey-form">
+
+          <label id="name-label" for="name">Name</label>
+
+         <input id="name" type="text" required placeholder="Type your name"><br><br>
+
+        <label id="email-label" for="email">Email</label>
+
+          <input id="email" type="email" required placeholder="Type in your email">
+
+          <label id="number-label" for="number">Number</label>
+
+          <input id="number" type="number" min="0" max="9" placeholder="Pick a number">
+
+          <select id="dropdown">
+
+              <option value="pepsi">Pepsi</option>
+              <option value="choke">Choke</option>
+
+          </select>
+      <div>
+          <input type="radio" name="whatever you want" value="yay">
+          <input type="radio" name="whatever you want" value="yay">
+      </div>
+
+      <div>
+        <input type="radio" name="ugh" value="more ugh">
+        <input type="radio" name="ugh" value="even more ugh">
+      </div>
+
+      <input type="checkbox" value="1">
+      <input type="checkbox" value="2">
+
+      <textarea></textarea>
+
+      <button id="submit" type="submit">     
+      </form>
+  </body>
+  </html>
